@@ -5,22 +5,19 @@
 
 //Enabled modules by default, disable them by adding // in front.
 
-#include "acre_setup\root.sqf"
-#include "anti_nd\root.sqf"
+
+
 #include "auto_track_assets\root.sqf"
-#include "disconnect_control\root.sqf"
 #include "eg_spectator_mode\root.sqf"
 #include "jip\root.sqf"
-#include "start_on_safe\root.sqf"
-#include "start_with_earplugs\root.sqf"
+#include "shot_count\root.sqf"
 
-//Additional modules that can be enabled by removing the // 
+//Additional modules that can be enabled by removing the //
 //!!Some of them require changing settings in their settings.sqf file!!
 
 //#include "a3_endscreen\root.sqf"
 //#include "ai_behaviour\root.sqf"
 //#include "ai_drivers\root.sqf"
-//#include "ai_link\root.sqf"
 //#include "ai_skill\root.sqf"
 //#include "ambient_animation\root.sqf"
 //#include "ambient_effects\root.sqf"
@@ -41,3 +38,7 @@
 //#include "start_on_team_color\root.sqf"
 //#include "start_text\root.sqf"
 //#include "task_control\root.sqf"
+//#include "start_on_safe\root.sqf"
+//#include "start_with_earplugs\root.sqf"
+//#include "disconnect_control\root.sqf"
+//#include "anti_nd\root.sqf"

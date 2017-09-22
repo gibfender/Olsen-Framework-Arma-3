@@ -12,11 +12,17 @@ FW_force_remove_facewear = false;
 _unit call FNC_RemoveAllGear;
 
 switch (_type) do {
-	
-	#include "loadouts\USMCRiflePlatoon.sqf"
-	#include "loadouts\RURiflePlatoon.sqf"
-    //#include "loadouts\BAF.sqf"
-    //#include "loadouts\1989USARMY.sqf"
-    //#include "loadouts\1989VDV.sqf"
-	
+
+	//#include "loadouts\Argentine.sqf"
+	//#include "loadouts\BAF.sqf"
+	//#include "loadouts\Bush.sqf"
+	//#include "loadouts\ISIS.sqf"
+	//#include "loadouts\meCiv.sqf"
+	//#include "loadouts\RURiflePlatoon.sqf"
+	//#include "loadouts\SAS.sqf"
+	//#include "loadouts\SOCOM.sqf"
+	//#include "loadouts\USArmyPlatoon.sqf"
+	//#include "loadouts\USMCPlatoon.sqf"
+
+
 };
