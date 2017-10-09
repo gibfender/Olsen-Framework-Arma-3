@@ -58,3 +58,4 @@ release/*
 # Arma
 *.pbo
 texHeaders.bin
+utility/ACE3 classlist.url
