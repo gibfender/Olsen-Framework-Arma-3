@@ -20,6 +20,7 @@
 
 #define uniform \
 	["usm_bdu_w"] call FNC_AddItem;
+
 #define IFAK \
 	["ACE_fieldDressing", 3, "uniform"] call FNC_AddItem; \
 	["ACE_elasticBandage", 3, "uniform"] call FNC_AddItem; \
