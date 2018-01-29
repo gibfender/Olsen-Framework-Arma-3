@@ -80,7 +80,7 @@ for "_x" from 1 to _amount do {
             };
         };
 
-        if (!_succes && _type in ["Map", "GPS", "Compass", "Watch", "NVGoggles"]) then {
+		if (!_succes && _type in ["Map", "GPS", "Compass", "LaserDesignator", "UAVTerminal", "Radio", "Watch", "NVGoggles"]) then {
 
             if ([_unit, _type] call FNC_CanLinkItem) then {
 
